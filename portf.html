@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIGNESH S | Portfolio</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#f4f6f8;
+  color:#333;
+}
+
+/* Header */
+header{
+  background:#0a192f;
+  color:#fff;
+  text-align:center;
+  padding:40px 20px;
+}
+
+header h1{
+  font-size:2.5rem;
+  text-transform:uppercase;
+}
+
+header p{
+  margin:10px 0;
+}
+
+.linkedin{
+  display:inline-block;
+  margin-top:10px;
+  padding:10px 18px;
+  background:#1f4068;
+  color:#fff;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+/* Navigation */
+nav{
+  display:flex;
+  justify-content:center;
+  background:#112240;
+  flex-wrap:wrap;
+}
+
+nav a{
+  color:#fff;
+  padding:15px 20px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+nav a:hover{
+  background:#1f4068;
+}
+
+/* Section */
+section{
+  max-width:900px;
+  margin:40px auto;
+  padding:20px;
+}
+
+section h2{
+  text-align:center;
+  margin-bottom:20px;
+  color:#0a192f;
+}
+
+/* Card */
+.card{
+  background:#fff;
+  padding:20px;
+  margin-bottom:20px;
+  border-left:5px solid #0a192f;
+  box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Skills */
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:12px;
+}
+
+.skills span{
+  background:#0a192f;
+  color:#fff;
+  padding:10px 18px;
+  border-radius:20px;
+  font-size:0.9rem;
+}
+
+/* Contact */
+#contact p{
+  text-align:center;
+  margin:8px 0;
+}
+
+/* Footer */
+footer{
+  background:#0a192f;
+  color:#fff;
+  text-align:center;
+  padding:15px;
+}
+
+/* Responsive */
+@media(max-width:600px){
+  header h1{
+    font-size:2rem;
+  }
+  nav{
+    flex-direction:column;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>VIGNESH S</h1>
+  <p>B.E – Computer Science and Engineering</p>
+  <a class="linkedin" href="https://www.linkedin.com/in/vignesh-s-938a14328" target="_blank">
+    LinkedIn Profile
+  </a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    Computer Science Engineering student with interest in web development,
+    Python programming, problem solving, debugging and team collaboration.
+  </p>
+</section>
+
+<section id="education">
+  <h2>Educational Qualification</h2>
+
+  <div class="card">
+    <h3>B.E – Computer Science and Engineering</h3>
+    <p>Bannari Amman Institute of Technology, Sathyamangalam</p>
+    <p>Passing Year: 2028 | CGPA: 7.34</p>
+  </div>
+
+  <div class="card">
+    <h3>HSC</h3>
+    <p>SRV Boys Higher Secondary School</p>
+    <p>2024 | 89.5%</p>
+  </div>
+
+  <div class="card">
+    <h3>SSLC</h3>
+    <p>Sri Gnanananda Matric Higher Secondary School</p>
+    <p>2022 | 82.6%</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>C Programming – Intermediate</span>
+    <span>Python – Intermediate</span>
+    <span>Java – Basic</span>
+    <span>SQL / DBMS Fundamentals</span>
+    <span>Problem Solving</span>
+    <span>Debugging</span>
+    <span>Team Collaboration</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Portfolio Website – HTML/CSS</h3>
+    <p>Personal responsive portfolio with optimized assets.</p>
+  </div>
+
+  <div class="card">
+    <h3>Student Result Analyzer – Python</h3>
+    <p>Automated marks processing and grade calculation.</p>
+  </div>
+
+  <div class="card">
+    <h3>Rule-Based Chatbot – Python (NLP)</h3>
+    <p>70% keyword accuracy in response matching.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: vigneshs.1826@gmail.com</p>
+  <p>Phone: 8248390579</p>
+</section>
+
+<footer>
+  <p>© 2025 VIGNESH S</p>
+</footer>
+
+</body>
+</html>
